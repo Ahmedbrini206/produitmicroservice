@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jdk-alpine
 WORKDIR /app
 
 # Étape 3 : Copier le JAR compilé depuis Maven
-COPY target/sb-api-gestion-produits-0.0.1-SNAPSHOT.jar app.jar
+COPY target/jpa-spring-boot-relations-0.0.1-SNAPSHOT.jar app.jar
 
 # Étape 4 : Exposer le port utilisé par Spring Boot (ajuste si nécessaire)
 EXPOSE 8083
